@@ -232,10 +232,10 @@
 									<p>Buka file app_config.php yang berada di folder class, kemudian lakukan perubahan pada :<br>
 									APPS_ID dan APPS_PUBLIC</p>
 									<pre><code class="php">$config = array(
-&#x9;&#x22;APPS_ID&#x22;&#x9;=&#x3E; &#x22;YOUR_APP_ID&#x22;,
-&#x9;&#x22;APPS_PUBLIC&#x22;&#x9;=&#x3E; &#x22;YOUR_APPS_SECRET&#x22;,
-&#x9;&#x22;SITE_API&#x22;&#x9;=&#x3E; &#x22;https://api.kalkulatorcetak.com&#x22;
-);</code></pre>
+										&#x9;&#x22;APPS_ID&#x22;&#x9;=&#x3E; &#x22;YOUR_APP_ID&#x22;,
+										&#x9;&#x22;APPS_PUBLIC&#x22;&#x9;=&#x3E; &#x22;YOUR_APPS_SECRET&#x22;,
+										&#x9;&#x22;SITE_API&#x22;&#x9;=&#x3E; &#x22;https://api.kalkulatorcetak.com&#x22;
+									);</code></pre>
 									<p class="alert alert-info">Jika Anda memerlukan informasi lebih lanjut, silakan kunjungi situs kalkulatorcetak: <a target="_blank" href="https://kalkulatorcetak.com/">https://kalkulatorcetak.com</a></p>
 								</section>
 								
@@ -257,8 +257,8 @@
 									<h2>Pengaturan Logo</h2>
 									<p>Logo dapat ditemukan di folder themes/new/thm.php pada class<code>&lt;container&gt;</code></p>
 									<pre><code class="html">&lt;a class=&quot;navbar-brand mr-lg-5&quot; href=&quot;/&quot;&gt;
-	&lt;img src=&quot;&lt;?= $base; ?&gt;/assets/img/brand/white.png&quot;&gt;
-&lt;/a&gt;</code></pre>
+										&lt;img src=&quot;&lt;?= $base; ?&gt;/assets/img/brand/white.png&quot;&gt;
+									&lt;/a&gt;</code></pre>
 								</section>
 								
 								
@@ -276,42 +276,40 @@
 								============================ -->
 								<section id="idocs_agenda">
 									<h2>Agenda</h2>
-									<p>The list of various header types & its descriptions are provided below for your reference:</p>
-									
-									<h4>Light</h4>
-									<p>Header with white background Color & Dark text. <span class="text-info">See below image and code for more inforamtion.</span></p>
-									<p><a class="popup-img" href="assets/images/header-light.jpg"><img class="img-fluid border" src="assets/images/header-light.jpg" alt=""></a></p>
-									<pre><code class="html">&lt;!-- Header
-										============================ --&gt;
-										&lt;header id=&quot;header&quot; class=&quot;sticky-top&quot;&gt; 
-										&lt;!-- Navbar --&gt;
-										&lt;nav class=&quot;primary-menu navbar navbar-expand-lg&quot;&gt;
-										&lt;div class=&quot;container-fluid&quot;&gt; 
-										.....
-										&lt;/div&gt;
-										&lt;/nav&gt;
-										&lt;!-- Navbar End --&gt; 
-										&lt;/header&gt;
-										&lt;!-- Header End --&gt;
-									</code></pre>
-									
-									<h4>Dark</h4>
-									<p>Header with dark background & Light text. <span class="text-info">See below image and code for more inforamtion.</span></p>
-									<p><a class="popup-img" href="assets/images/header-dark.jpg"><img class="img-fluid border" src="assets/images/header-dark.jpg" alt=""></a></p>
-									<p>Add the <code>.bg-dark</code> and <code>.navbar-text-light</code> Class to the <code>&lt;nav&gt;</code> Tag to display a Dark Header.</p>
-									<pre><code class="html">&lt;!-- Header
-										============================ --&gt;
-										&lt;header id=&quot;header&quot; class=&quot;sticky-top&quot;&gt; 
-										&lt;!-- Navbar --&gt;
-										&lt;nav class=&quot;primary-menu navbar navbar-expand-lg bg-dark navbar-text-light&quot;&gt;
-										&lt;div class=&quot;container-fluid&quot;&gt; 
-										.....
-										&lt;/div&gt;
-										&lt;/nav&gt;
-										&lt;!-- Navbar End --&gt; 
-										&lt;/header&gt;
-										&lt;!-- Header End --&gt;
-									</code></pre>
+									<p>Modul untuk menghitung box seperti :<br>Box Makanan</p>
+									<h4>Cara dan detail hitung Box</h4>
+									<div class="row">
+										<div class="col-4 my-3 text-center">
+											<a class="popup-img" href="assets/images/agenda_big.jpg">
+												<img src="assets/images/agenda.jpg" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Modul Agenda</h6>
+											</a>
+										</div>
+										<div class="col-4 my-3 text-center">
+											<a class="popup-img" href="assets/images/form_box_1.png">
+												<img src="assets/images/box_1_thumb.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Modal Form Box 1</h6>
+											</a>
+										</div>
+										<div class="col-4 my-3 text-center">
+											<a class="popup-img" href="assets/images/form_box_6_hasil.png">
+												<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Single</h6>
+											</a>
+										</div>
+										<div class="col-4 my-3 text-center">
+											<a class="popup-img" href="assets/images/form_box_6_hasil_multi.png">
+												<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Multi</h6>
+											</a>
+										</div>
+										<div class="col-4 my-3 text-center">
+											<a class="popup-img" href="assets/images/box_6_detail.png">
+												<img src="assets/images/thumb_box_6_detail.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Detail Hitung</h6>
+											</a>
+										</div>
+									</div>
 								</section>
 								
 								<hr class="divider">
@@ -492,35 +490,34 @@
 									<div class="row">
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/box1_big.jpg">
-								<img src="assets/images/box1.jpg" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Modul Box 1</h6>
-									</a>
+												<img src="assets/images/box1.jpg" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Modul Box 1</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_1.png">
-								<img src="assets/images/box_1_thumb.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Modal Form Box 1</h6>
-									</a>
+												<img src="assets/images/box_1_thumb.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Modal Form Box 1</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
-											<a class="popup-img" href="assets/images/form_box_6_hasil.png">
-								<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Hasil Hitung Single</h6>
-									</a>
+											<a class="popup-img" href="assets/images/form_box_1_hasil.png">
+												<img src="assets/images/box_1_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Single</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
-											<a class="popup-img" href="assets/images/form_box_6_hasil_multi.png">
-								<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Hasil Hitung Multi</h6>
-									</a>
+											<a class="popup-img" href="assets/images/form_box_1_hasil_multi.png">
+												<img src="assets/images/box_1_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Multi</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
-											<a class="popup-img" href="assets/images/box_6_detail.png">
-								<img src="assets/images/thumb_box_6_detail.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Detail Hitung</h6>
-									</a>
+											<a class="popup-img" href="assets/images/box_1_detail.png">
+												<img src="assets/images/thumb_box_1_detail.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Detail Hitung</h6>
+											</a>
 										</div>
-										
 									</div>
 								</section>
 								<hr class="divider">
@@ -532,33 +529,33 @@
 									<div class="row">
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/box2_big.jpg">
-								<img src="assets/images/box2.jpg" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Modul Box 2</h6>
-									</a>
+												<img src="assets/images/box2.jpg" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Modul Box 2</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_2.png">
-								<img src="assets/images/box_2_thumb.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Form Input Hitung</h6>
-									</a>
+												<img src="assets/images/box_2_thumb.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Form Input Hitung</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_2_hasil.png">
-								<img src="assets/images/box_2_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Hasil Hitung Single</h6>
-									</a>
+												<img src="assets/images/box_2_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Single</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_2_hasil_multi.png">
-								<img src="assets/images/box_2_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Hasil Hitung Multi</h6>
-									</a>
+												<img src="assets/images/box_2_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Multi</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
-											<a class="popup-img" href="assets/images/box_6_detail.png">
-								<img src="assets/images/thumb_box_6_detail.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Detail Hitung</h6>
-									</a>
+											<a class="popup-img" href="assets/images/box_2_detail.png">
+												<img src="assets/images/thumb_box_2_detail.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Detail Hitung</h6>
+											</a>
 										</div>
 										
 									</div>
@@ -572,33 +569,33 @@
 									<div class="row">
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/box3_big.jpg">
-								<img src="assets/images/box3.jpg" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Modul Box 3</h6>
-									</a>
+												<img src="assets/images/box3.jpg" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Modul Box 3</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_6.png">
-								<img src="assets/images/box_6_thumb.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Form Input Hitung</h6>
-									</a>
+												<img src="assets/images/box_6_thumb.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Form Input Hitung</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_6_hasil.png">
-								<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Hasil Hitung Single</h6>
-									</a>
+												<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Single</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_6_hasil_multi.png">
-								<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Hasil Hitung Multi</h6>
-									</a>
+												<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Multi</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/box_6_detail.png">
-								<img src="assets/images/thumb_box_6_detail.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Detail Hitung</h6>
-									</a>
+												<img src="assets/images/thumb_box_6_detail.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Detail Hitung</h6>
+											</a>
 										</div>
 										
 									</div>
@@ -612,33 +609,33 @@
 									<div class="row">
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/box4_big.jpg">
-								<img src="assets/images/box4.jpg" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Modul Box 4</h6>
-									</a>
+												<img src="assets/images/box4.jpg" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Modul Box 4</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_6.png">
-								<img src="assets/images/box_6_thumb.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Form Input Hitung</h6>
-									</a>
+												<img src="assets/images/box_6_thumb.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Form Input Hitung</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_6_hasil.png">
-								<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Hasil Hitung Single</h6>
-									</a>
+												<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Single</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_5_hasil_multi.png">
-								<img src="assets/images/box_5_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Hasil Hitung Multi</h6>
-									</a>
+												<img src="assets/images/box_5_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Multi</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/box_6_detail.png">
-								<img src="assets/images/thumb_box_6_detail.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Detail Hitung</h6>
-									</a>
+												<img src="assets/images/thumb_box_6_detail.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Detail Hitung</h6>
+											</a>
 										</div>
 										
 									</div>
@@ -652,33 +649,33 @@
 									<div class="row">
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/box5_big.jpg">
-								<img src="assets/images/box5.jpg" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Modul Box 5</h6>
-									</a>
+												<img src="assets/images/box5.jpg" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Modul Box 5</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_6.png">
-								<img src="assets/images/box_6_thumb.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Form Input Hitung</h6>
-									</a>
+												<img src="assets/images/box_6_thumb.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Form Input Hitung</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_6_hasil.png">
-								<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Hasil Hitung Single</h6>
-									</a>
+												<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Single</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_6_hasil_multi.png">
-								<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Hasil Hitung Multi</h6>
-									</a>
+												<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Multi</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/box_6_detail.png">
-								<img src="assets/images/thumb_box_6_detail.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Detail Hitung</h6>
-									</a>
+												<img src="assets/images/thumb_box_6_detail.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Detail Hitung</h6>
+											</a>
 										</div>
 										
 									</div>
@@ -692,33 +689,33 @@
 									<div class="row">
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/box6_big.jpg">
-								<img src="assets/images/box6.jpg" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Modul Box 6</h6>
-									</a>
+												<img src="assets/images/box6.jpg" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Modul Box 6</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_6.png">
-								<img src="assets/images/box_6_thumb.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Form Input Hitung</h6>
-									</a>
+												<img src="assets/images/box_6_thumb.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Form Input Hitung</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_6_hasil.png">
-								<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Hasil Hitung Single</h6>
-									</a>
+												<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Single</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_6_hasil_multi.png">
-								<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Hasil Hitung Multi</h6>
-									</a>
+												<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Multi</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/box_6_detail.png">
-								<img src="assets/images/thumb_box_6_detail.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Detail Hitung</h6>
-									</a>
+												<img src="assets/images/thumb_box_6_detail.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Detail Hitung</h6>
+											</a>
 										</div>
 										
 									</div>
@@ -734,33 +731,33 @@
 									<div class="row">
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/box6_big.jpg">
-								<img src="assets/images/box6.jpg" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Modul Box 6</h6>
-									</a>
+												<img src="assets/images/box6.jpg" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Modul Box 6</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_6.png">
-								<img src="assets/images/box_6_thumb.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Form Input Hitung</h6>
-									</a>
+												<img src="assets/images/box_6_thumb.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Form Input Hitung</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_6_hasil.png">
-								<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Hasil Hitung Single</h6>
-									</a>
+												<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Single</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/form_box_6_hasil_multi.png">
-								<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Hasil Hitung Multi</h6>
-									</a>
+												<img src="assets/images/box_6_thumb_hasil.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Hasil Hitung Multi</h6>
+											</a>
 										</div>
 										<div class="col-4 my-3 text-center">
 											<a class="popup-img" href="assets/images/box_6_detail.png">
-								<img src="assets/images/thumb_box_6_detail.png" class="img-fluid img-thumbnail" alt="image">
-								<h6 class="pt-2">Detail Hitung</h6>
-									</a>
+												<img src="assets/images/thumb_box_6_detail.png" class="img-fluid img-thumbnail" alt="image">
+												<h6 class="pt-2">Detail Hitung</h6>
+											</a>
 										</div>
 										
 									</div>
